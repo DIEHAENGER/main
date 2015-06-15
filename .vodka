@@ -88,10 +88,10 @@ class Slot_machine  //rip in peperonies 2015-2015 †
 			{
 				if (c1==c2==c3)
 				{
-					drawString(Sie haben gewonnen);
-					playTone(261, 25);
-					playTone(293, 25;
-					playTone(329, 150);
+					drawString(Jackpot,10,10);
+					playTone(261,25);
+					playTone(293,25);
+					playTone(329,150);
 				}
 				else
 				{
@@ -118,4 +118,5 @@ class Slot_machine  //rip in peperonies 2015-2015 †
 	{
 		new Slot_machine();
 	}
+}
 }
