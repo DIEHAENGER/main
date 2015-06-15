@@ -104,7 +104,7 @@ class Slot_machine
 					}
 					else
 					{
-						drawSting(Veloren,10,10);
+						drawSting(Verloren,10,10);
 						playTone(246,50);
 						playTone(233,50);
 						playTone(220,200);
