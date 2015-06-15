@@ -65,7 +65,7 @@ class Slot_machine  //rip in peperonies 2015-2015 †
 			{
 				if (!ts.isPressed())
 				{
-					csmotor.backward();   // wir haben 6 farben die grundfarben hier werden die gescannt
+					csmotor.backward();  
 				}
 				
 				csmotor.forward();
@@ -84,7 +84,7 @@ class Slot_machine  //rip in peperonies 2015-2015 †
 
 
 			}
-			while(a==5)  // jetzt wird ausgewertet was man bekommt
+			while(a==5)  
 			{
 				if (c1==c2==c3)
 				{
