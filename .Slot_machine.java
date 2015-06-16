@@ -2,7 +2,7 @@
 import ch.aplu.ev3.*;
 import java.awt.Color;
 class Slot_machine  //rip in peperonies 2015-2015 †
-{            //while a 4
+{            
 	Slot_machine()
 	{
 		LegoRobot robot = new LegoRobot();
@@ -88,7 +88,7 @@ class Slot_machine  //rip in peperonies 2015-2015 †
 			{
 				if (c1==c2==c3)
 				{
-					drawString(Jackpot,10,10);
+					drawString(Jackpot!,10,10);
 					playTone(261,25);
 					playTone(293,25);
 					playTone(329,150);
@@ -97,16 +97,22 @@ class Slot_machine  //rip in peperonies 2015-2015 †
 				{
 					if (c1==c2||c1==c3||c2==c3)
 					{
-						//GELDZURÜCK AUSGABE();
+						drawString(Geldzurück,10,10);
+						
+						playTone(293,25);
+						
 					}
 					else
 					{
-						//VERLIEREN AUSGABE();
+						drawString(Verloren,10,10);
+						playTone(261,25);
+						
+						
 					}
 				}
 				
 				
-				// unsere Programmierung ist fertig wir müssen nur noch macchen bei welchen farb kombinationen man gewonnen und bei welchen man verlorne hat
+			
 				
 			}
 		}
@@ -119,4 +125,4 @@ class Slot_machine  //rip in peperonies 2015-2015 †
 		new Slot_machine();
 	}
 }
-}
+
